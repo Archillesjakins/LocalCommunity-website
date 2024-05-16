@@ -1,0 +1,88 @@
+.logo-icon {
+  height: 40.5px;
+  width: 156.8px;
+  position: relative;
+}
+.become-a-host,
+.home,
+.stays {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.become-a-host,
+.stays {
+  min-width: 36px;
+}
+.become-a-host {
+  min-width: 94px;
+  white-space: nowrap;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.avatar-icon,
+.notifications-icon {
+  height: 26.5px;
+  width: 26px;
+  position: relative;
+  object-fit: contain;
+}
+.avatar-icon {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.login-section {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.header,
+.header-content,
+.login-section {
+  display: flex;
+  align-items: center;
+}
+.header-content {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1280px;
+  gap: 20px;
+}
+.header {
+  align-self: stretch;
+  background-color: #fff;
+  border-bottom: 1px solid #e8ecf2;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 14px 80px 12px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: Archivo;
+}
+@media screen and (max-width: 1275px) {
+  .header-content {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nav-links {
+    display: none;
+  }
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}

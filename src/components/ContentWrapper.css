@@ -1,0 +1,464 @@
+.visuals-icon {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.images-icon,
+.images-icon1,
+.images-icon2,
+.images-icon3 {
+  align-self: stretch;
+  width: 160px;
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 86px;
+  debug_commit: 1de1738;
+}
+.primary-image-icon {
+  height: 100%;
+  width: 148.4px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 4px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.secondary-image-icon {
+  height: 24.6px;
+  width: 31.7px;
+  position: relative;
+  z-index: 1;
+}
+.image-carousel,
+.images,
+.visuals-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.images {
+  flex-direction: row;
+  padding: 30.6px 63.9px 30.8px 64.4px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.image-carousel,
+.visuals-parent {
+  width: 782px;
+  max-width: 100%;
+}
+.image-carousel {
+  border-radius: 8px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: 10px;
+}
+.visuals-parent {
+  height: 539px;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 782px;
+}
+.brightwoods-cabin {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.bridlepath-ontario-canada {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 17.5px;
+}
+.brightwoods-cabin-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  min-width: 281px;
+  max-width: 100%;
+}
+.heart-icon1 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.frame-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  max-width: 100%;
+}
+.average-rating {
+  height: 11px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  min-width: 25px;
+}
+.star-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.rating-summary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.reviews {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 95px;
+}
+.review-count {
+  border-left: 1px solid #e8ecf2;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 7px;
+  color: #00c29f;
+}
+.frame-div,
+.property-features,
+.review-count {
+  display: flex;
+  justify-content: flex-start;
+}
+.property-features {
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+}
+.frame-div {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.welcome-to-our {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+}
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17px;
+  max-width: 100%;
+}
+.night1,
+.price1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.price1 {
+  min-width: 88px;
+  white-space: nowrap;
+}
+.night1 {
+  min-width: 48px;
+}
+.nightly-rate,
+.price-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nightly-rate {
+  flex-direction: column;
+  padding: 18.5px 0 0;
+  font-size: 18px;
+}
+.price-parent {
+  flex-direction: row;
+  gap: 3px;
+}
+.icon {
+  position: absolute;
+  height: 43.33%;
+  width: 63.11%;
+  top: 28.89%;
+  right: 18.45%;
+  bottom: 27.78%;
+  left: 18.45%;
+  border-radius: 0.5px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.details-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -7.28%;
+  bottom: -8.33%;
+  left: 0;
+  border-radius: 3.5px;
+  border: 1.5px solid #00c29f;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.icon-parent {
+  position: absolute;
+  height: 81.82%;
+  width: 93.64%;
+  top: 9.09%;
+  right: 3.18%;
+  bottom: 9.09%;
+  left: 3.18%;
+}
+.icontrend {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.best-time-to {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.trending-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.5px 0 0;
+}
+.trend {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.frame-parent2,
+.recommendation,
+.trend {
+  display: flex;
+  align-items: flex-start;
+}
+.recommendation {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8.5px 0 0;
+  font-size: 16px;
+  color: #00c29f;
+}
+.frame-parent2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.search-flights-button1 {
+  align-self: stretch;
+  height: 58px;
+}
+.booking {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px;
+  font-size: 36px;
+}
+.hosted-by {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 80px;
+}
+.host-image-icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.joined-in-may,
+.michelle-ward {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.michelle-ward {
+  line-height: 150%;
+  font-weight: 600;
+  min-width: 108px;
+}
+.joined-in-may {
+  font-size: 14px;
+  line-height: 15.5px;
+  color: #7a7a7a;
+  min-width: 125px;
+}
+.condition-splitter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 2px;
+  min-width: 188px;
+}
+.status-icon {
+  height: 18.4px;
+  width: 12.3px;
+  position: relative;
+}
+.superhost1 {
+  height: 11px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: Archivo;
+  color: #00c29f;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 75px;
+}
+.host-image-parent,
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.status {
+  cursor: pointer;
+  border: 0;
+  padding: 8px 11px;
+  background-color: #defff9;
+  border-radius: 17px;
+  gap: 5px;
+}
+.status:hover {
+  background-color: #c4e6e0;
+}
+.host-image-parent {
+  align-self: stretch;
+  border-top: 0.7px solid #e8ecf2;
+  padding: 7px 0 0;
+  gap: 10px;
+  color: #171e1d;
+}
+.content-wrapper,
+.frame-group,
+.hosted-by-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hosted-by-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 16px;
+  color: #787878;
+}
+.content-wrapper,
+.frame-group {
+  gap: 28px;
+  max-width: 100%;
+}
+.frame-group {
+  flex: 1;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid #e8ecf2;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 36px 27px;
+  min-width: 344px;
+}
+.content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: 29px;
+  color: #171e1d;
+  font-family: Archivo;
+}
+@media screen and (max-width: 1275px) {
+  .visuals-parent {
+    flex: 1;
+  }
+  .content-wrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .visuals-parent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent1 {
+    flex-wrap: wrap;
+  }
+  .price1 {
+    font-size: 29px;
+  }
+  .host-image-parent {
+    flex-wrap: wrap;
+  }
+  .frame-group {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .brightwoods-cabin {
+    font-size: 23px;
+  }
+  .price1 {
+    font-size: 22px;
+  }
+  .frame-parent2 {
+    flex-wrap: wrap;
+  }
+  .search-flights-button1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

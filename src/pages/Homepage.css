@@ -1,0 +1,129 @@
+.homes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px 18.7px;
+  max-width: 1280px;
+  min-height: 1692px;
+}
+.show-more-button {
+  width: 147px;
+  height: 48px;
+  cursor: pointer;
+}
+.stays-section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 80px;
+  gap: 22px;
+}
+.contact-us,
+.localhost-inc-all,
+.privacy-policy,
+.terms-conditions {
+  position: relative;
+  line-height: 17px;
+  font-weight: 300;
+}
+.contact-us,
+.privacy-policy,
+.terms-conditions {
+  display: inline-block;
+  min-width: 85px;
+}
+.contact-us,
+.terms-conditions {
+  min-width: 120px;
+}
+.contact-us {
+  min-width: 67px;
+}
+.policy-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.band-inner,
+.localhost-inc-all-rights-res-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 1280px;
+}
+.localhost-inc-all-rights-res-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.band-inner {
+  width: 100%;
+  justify-content: center;
+}
+.band,
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.band {
+  align-self: stretch;
+  border-top: 1px solid #e8ecf2;
+  box-sizing: border-box;
+  padding: 10px 80px 12px;
+  max-width: 100%;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: #fafafa;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: Archivo;
+}
+@media screen and (max-width: 1275px) {
+  .homes {
+    max-width: 100%;
+  }
+  .stays-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .band-inner,
+  .localhost-inc-all-rights-res-parent {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .stays-section {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .localhost-inc-all-rights-res-parent {
+    flex-wrap: wrap;
+  }
+  .band {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .policy-navigation {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,105 @@
+.sign-in {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.email1,
+.password1 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 51px;
+  font-family: Archivo;
+  font-size: 16px;
+  color: #787878;
+}
+.form-fields1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 15.7px;
+}
+.search-flights-button3 {
+  width: 160px;
+  height: 52px;
+}
+.search-flights-button3:hover {
+  background-color: #975b00;
+}
+.form5 {
+  margin: 0;
+  padding: 0;
+  gap: 26.7px;
+}
+.form4,
+.form5,
+.sign-in-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form4 {
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.sign-in-parent {
+  gap: 24px;
+}
+.form-child {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 1.6px solid #ececec;
+  box-sizing: border-box;
+}
+.sign-up {
+  color: #00c29f;
+}
+.dont-have-an-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+}
+.form3 {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px 48px;
+  box-sizing: border-box;
+  gap: 37.2px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 26px;
+  color: #171e1d;
+  font-family: Archivo;
+}
+@media screen and (max-width: 750px) {
+  .form3 {
+    gap: 19px;
+    padding: 203.5px 24px 26px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-in {
+    font-size: 21px;
+  }
+}

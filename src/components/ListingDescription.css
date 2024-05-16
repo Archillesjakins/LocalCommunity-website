@@ -1,0 +1,150 @@
+.about-this-home {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.welcome-to-brightwoods {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.living-space {
+  font-family: Archivo;
+}
+.living-space-this-charming-ca {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.bedrooms {
+  font-family: Archivo;
+}
+.bedrooms-with-3-beautifully-a {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.kitchen-dining {
+  font-family: Archivo;
+}
+.kitchen-dining-our-fully-eq {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.bathrooms {
+  font-family: Archivo;
+}
+.bathrooms-2-modern-bathrooms {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.outdoor-space {
+  font-family: Archivo;
+}
+.outdoor-space-step-outside-to {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.location {
+  font-family: Archivo;
+}
+.location-located-just-minutes {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.hosted-with-love {
+  font-family: Archivo;
+}
+.hosted-with-love-we-take-prid {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.come-be-our {
+  margin: 0;
+}
+.welcome-to-brightwoods-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+.button {
+  position: relative;
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #00c29f;
+  text-align: center;
+  display: inline-block;
+  min-width: 88px;
+}
+.introduction {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 539px;
+}
+.description-content,
+.introduction,
+.listing-description,
+.property-amenities {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.property-amenities {
+  flex-direction: column;
+  padding: 0 139px 0 0;
+  box-sizing: border-box;
+  gap: 24px;
+  min-width: 470px;
+  font-size: 18px;
+}
+.description-content,
+.listing-description {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 16px;
+}
+.listing-description {
+  border-bottom: 1px solid #e8ecf2;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 0 0 22px;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #171e1d;
+  font-family: Archivo;
+}
+@media screen and (max-width: 1275px) {
+  .property-amenities {
+    flex: 1;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .description-content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .introduction,
+  .property-amenities {
+    min-width: 100%;
+  }
+  .description-content {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-this-home {
+    font-size: 19px;
+  }
+}

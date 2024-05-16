@@ -1,0 +1,172 @@
+.host {
+  color: #00c29f;
+}
+.find-a-host-container {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  max-width: 100%;
+}
+.discover-the-best {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 300;
+  font-family: inherit;
+}
+.find-a-host-for-every-journey-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  max-width: 100%;
+}
+.autocompletebasic {
+  border: 0;
+  background-color: transparent;
+  height: 64px;
+  flex: 1;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000;
+  min-width: 356px;
+  max-width: 100%;
+}
+.dates-field,
+.dates-field1,
+.wrapper {
+  height: 64px;
+  flex: 1;
+  min-width: 130px;
+}
+.dates-field1 {
+  border: 0;
+  background-color: transparent;
+  font-family: Roboto;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.grouped {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  min-width: 438px;
+  max-width: 100%;
+}
+.search-button {
+  height: 64px;
+  width: 142px;
+}
+.form2 {
+  align-self: stretch;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  background-color: #fff;
+  border: 0.7px solid #e8ecf2;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 9px 11px;
+  gap: 10px;
+  max-width: 100%;
+}
+.hero-container,
+.price-chart-container,
+.trend-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.trend-icon {
+  width: 100%;
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 1280px;
+}
+.hero-container,
+.price-chart-container {
+  align-self: stretch;
+  max-width: 100%;
+}
+.price-chart-container {
+  align-items: center;
+  padding: 50px 80px 30px;
+  box-sizing: border-box;
+  background-image: url(/public/price-chart-container@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.hero-container {
+  align-items: flex-start;
+  text-align: left;
+  font-size: 40.4px;
+  color: #000;
+  font-family: Archivo;
+}
+@media screen and (max-width: 1275px) {
+  .autocompletebasic,
+  .grouped {
+    align-self: stretch;
+    width: auto;
+  }
+  .form2 {
+    flex-wrap: wrap;
+  }
+  .trend-icon {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .find-a-host-container {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .autocompletebasic {
+    min-width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .dates-field,
+  .dates-field1,
+  .grouped,
+  .wrapper {
+    min-width: 100%;
+  }
+  .grouped {
+    flex-wrap: wrap;
+    flex: unset;
+    align-self: stretch;
+  }
+  .search-button {
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    min-width: 142;
+  }
+  .form2 {
+    flex-direction: column;
+  }
+  .price-chart-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .find-a-host-container {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .discover-the-best {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
